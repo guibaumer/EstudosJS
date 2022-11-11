@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+#nove {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.square {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}

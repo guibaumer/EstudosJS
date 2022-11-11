@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicons/favicon-16x16.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="title">CÁLCULOS</a></h1>
+        <p>Um programa simples para fazer contas.</p>
+    </header>
+    <main>
+<h2>Contas Matemáticas</h2>
+<div class="icones"> <a href="soma.html">+</a></div> <div class="icones"> <a href="sub.html">-</a></div> <div class="icones"> <a href="multi.html">X</a></div> <div class="icones"><a href="divis.html">%</a></div>
+<p>Veja o resultado da multiplicação de dois números:</p>
+<input type="number" name="vlr1" id="valor1"> x <input type="number" name="vlr2" id="valor2"> <br>
+<input type="button" id="botao" value="VERIFICAR" onclick="contar()">
+<div id="aqui">A resposta aparecerá aqui!</div>
+    </main>
+    <footer>
+        Desenvolvido por Guilherme.
+    </footer>
+    <script>
+        function contar() {
+    let valor = document.getElementById('valor1')
+    let valorDois = document.getElementById('valor2')
+    let n1 = Number(valor.value)
+    let n2 = Number(valorDois.value)
+    let resposta = document.getElementById('aqui')
+    let conta = n1 * n2
+    resposta.innerHTML = `O resultado é ${conta}.`
+}
+    </script>
+</body>
+</html>
