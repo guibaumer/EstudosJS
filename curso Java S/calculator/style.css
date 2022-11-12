@@ -42,7 +42,6 @@
     #botao {
         margin-top: 10px;
     }
-    
     #comecar {
         margin-top: 55px;
     }
@@ -51,7 +50,18 @@
     }
     #paragrafonext {
        padding-top: 3px;
+       margin-top: 3px;
+       margin-bottom: 3px;
     }
-
+   section {
+    background-color: white;
+    padding-bottom: 5px;
+    box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.495);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+   }
+    #t1 {
+        margin-top: 10px;
+    }
     
     
