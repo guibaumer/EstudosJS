@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" id="i1">
+    <input type="button" value="aqui" onclick="teste()">
+    <div id="div">?</div>
+    <input type="button" value="add" onclick="mudar()">
+    <div id="here"></div>
+</body>
+<script>
+function teste() {
+    let div2 = document.getElementById('here')
+let div = document.getElementById('div')
+let input = document.getElementById('i1')
+if(!(input >= 18)) {
+  div.innerHTML = 'certo'  
+}
+else {
+    div.innerHTML = 'errado'
+}
+}
+function mudar() {
+    
+}
+</script>
+</html>
