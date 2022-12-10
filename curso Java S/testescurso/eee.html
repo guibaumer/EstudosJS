@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="aqui" onclick="obterTotal()">
+    <div id="div"></div>
+</body>
+<script>
+    function obterTotal() {
+        let array4 = [1, 2, 3]
+        let div = document.getElementById('div')
+let arr = array4
+let array = Number(arr.value)
+let fim = array.reduce(function(total, atual){
+    return total = total + atual
+}, 0)
+div.innerHTML = fim
+}
+</script>
+</html>
